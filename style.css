@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img\img compressed\texture-paper.avif");
+    background: url("img/img-compressed/texture-paper.avif");
     background-size: 280px 280px;
 }
 
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: #2B094D;
+    color: #000;
     text-align: center;
 }
 
@@ -196,7 +196,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: #2B094D;
+    color: #000;
 }
 
 .d-bloc .panel button:hover,
@@ -483,7 +483,7 @@ button {
 }
 
 .icon-md {
-    font-size: 15px!important;
+    font-size: 25px!important;
     display: flex;
     justify-content: center;
 }
@@ -750,7 +750,7 @@ h4 {
 }
 
 .white {
-    color: #2B094D!important;
+    color: #000!important;
     text-align: center;
 }
 
@@ -797,12 +797,12 @@ h4 {
 }
 
 .tc-black {
-    color: #2B094D!important;
+    color: #000!important;
     font-weight: bold; 
 }
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #2B094D!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -840,11 +840,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/img compressed/agence-la-panthere.avif");
+    background-image: url("img/img-compressed/agence-la-panthere.avif");
 }
 
 .bg-presentation {
-    background-image: url("img/img compressed/image-de-presentation.avif");
+    background-image: url("img/img-compressed/image-de-presentation.avif");
 }
 
 @media (max-width: 1024px) {
