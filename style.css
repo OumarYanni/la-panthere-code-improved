@@ -134,6 +134,7 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: #2B094D;
+    text-align: center;
 }
 
 .d-bloc .a-btn:hover,
@@ -281,6 +282,7 @@ a:hover {
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
     padding-left: 0;
+    margin: 20px;
 }
 
 #bloc-1-hero h1 {
@@ -299,7 +301,7 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
-    width: 70%;
+    width: 600px;
 }
 
 .navbar-brand img {
@@ -309,7 +311,8 @@ a:hover {
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 250px;
+    /*min-width: 250px;*/
+    width: 50%;
 }
 
 .nav-center .navbar-brand img {
@@ -479,7 +482,7 @@ button {
 }
 
 .icon-md {
-    font-size: 14px!important;
+    font-size: 15px!important;
     display: flex;
     justify-content: center;
 }
@@ -513,6 +516,8 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    margin: 15px;
+    width: 90%;
 }
 
 .scrollToTop {
@@ -521,7 +526,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -684,6 +689,7 @@ a {
 
 p {
     font-size: 14px;
+    line-height: 20px;
 }
 
 .tight-width-whitespace {
@@ -708,6 +714,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
 }
 
 h2 {
@@ -743,6 +750,7 @@ h4 {
 
 .white {
     color: #2B094D!important;
+    text-align: center;
 }
 
 .portfolio-thumb {
