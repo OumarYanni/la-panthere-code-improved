@@ -80,21 +80,6 @@ a:hover {
     background: top no-repeat;
 }
 
-/*.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.texture-paper::before {
-    background: url("img\img_compressed\texture-paper.avif");
-    background-size: 280px 280px;
-}*/
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -311,7 +296,6 @@ a:hover {
 }
 
 .navbar-brand img[src$=svg] {
-    /*min-width: 250px;*/
     width: 50%;
     height: 50%;
 }
@@ -329,7 +313,6 @@ a:hover {
 
 .nav > li {
     float: left;
-    /*margin-top: 4px;*/
     font-size: 16px;
     list-style: none;
     margin: 4px;
@@ -932,9 +915,7 @@ h4 {
         background-attachment: scroll;
     }
     .navbar .nav {
-        /*padding-top: 0;*/
         border-top: 1px solid rgba(0, 0, 0, .2);
-        /*float: none!important;*/
         display: contents;
     }
     .navbar.row {
@@ -952,7 +933,6 @@ h4 {
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
         text-align: left;
-        /*padding-left: 15px;*/
         width: 100%;
         padding: 10px;
     }
