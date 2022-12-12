@@ -4250,7 +4250,7 @@ input[type=submit].btn-block {
 }
 
 .collapse {
-    display: block
+    display: none
 }
 
 .collapse.in {
